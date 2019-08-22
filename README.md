@@ -1,2 +1,3 @@
-# mapreduce_assignments
- MapReduce Assignments
+# Mapreduce Assignments
+
+Some Example problems solved using MapReduce using Java.
