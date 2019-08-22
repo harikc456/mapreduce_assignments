@@ -1,0 +1,15 @@
+and	2.0		hdfs://localhost:54310/user/index/2.txt
+can	1.0		hdfs://localhost:54310/user/index/1.txt
+go	2.0		hdfs://localhost:54310/user/index/3.txt	hdfs://localhost:54310/user/index/2.txt
+hello	2.0		hdfs://localhost:54310/user/index/2.txt	hdfs://localhost:54310/user/index/1.txt
+here	1.0		hdfs://localhost:54310/user/index/3.txt
+hi	2.0		hdfs://localhost:54310/user/index/2.txt	hdfs://localhost:54310/user/index/1.txt
+i	2.0		hdfs://localhost:54310/user/index/1.txt	hdfs://localhost:54310/user/index/2.txt
+meet	1.0		hdfs://localhost:54310/user/index/1.txt
+see	2.0		hdfs://localhost:54310/user/index/3.txt	hdfs://localhost:54310/user/index/2.txt
+then	4.0		hdfs://localhost:54310/user/index/2.txt	hdfs://localhost:54310/user/index/1.txt	hdfs://localhost:54310/user/index/3.txt
+there	1.0		hdfs://localhost:54310/user/index/3.txt
+we	1.0		hdfs://localhost:54310/user/index/3.txt
+where	1.0		hdfs://localhost:54310/user/index/1.txt
+will	2.0		hdfs://localhost:54310/user/index/1.txt	hdfs://localhost:54310/user/index/2.txt
+you	1.0		hdfs://localhost:54310/user/index/2.txt

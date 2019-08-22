@@ -1,0 +1,1 @@
+Compute the continuous assessment marks [Add all the five + take an average] for the given data 

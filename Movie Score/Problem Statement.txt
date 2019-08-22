@@ -1,0 +1,1 @@
+Use the above set , Identify which movie has the maximum rating per genre. Display Movie Name, Genre and Score 

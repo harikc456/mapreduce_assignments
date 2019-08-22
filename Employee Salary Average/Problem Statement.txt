@@ -1,0 +1,15 @@
+Compute total and average salary of organization XYZ and group by based on sex(male or female).
+
+
+Input data are in text file as tab separated.
+
+
+Schema of input data is - sex at position 3th and salary at 8th position.
+
+
+
+Sample data
+
+100 RamaRaju  M SKING 515.123.4567 17-JUN-03 AD_PRES 25798.9 90
+
+101 Roja  F SKING 515.123.4567 17-JUN-03 AD_PRES 32549.9 90

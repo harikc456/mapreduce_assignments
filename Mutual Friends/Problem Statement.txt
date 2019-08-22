@@ -1,0 +1,20 @@
+
+Facebook has a list of friends (note that friends are a bi-directional thing on Facebook. If I'm your friend, you're mine). They also have lots of disk space and they serve hundreds of millions of requests everyday. They've decided to pre-compute calculations when they can to reduce the processing time of requests. One common processing request is the "You and Joe have 230 friends in common" feature. When you visit someone's profile, you see a list of friends that you have in common. This list doesn't change frequently so it'd be wasteful to recalculate it every time you visited the profile ( Write a map reduce to calculate everyone's common friends)  
+Assume the friends are stored as Person->[List of Friends], our friends list is then:
+
+A -> B C D
+B -> A C D E
+C -> A B D E
+D -> A B C E
+E -> B C D
+
+The result after reduction is:
+(A B) -> (C D)
+(A C) -> (B D)
+(A D) -> (B C)
+(B C) -> (A D E)
+(B D) -> (A C E)
+(B E) -> (C D)
+(C D) -> (A B E)
+(C E) -> (B D)
+(D E) -> (B C)

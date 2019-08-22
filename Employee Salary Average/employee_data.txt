@@ -1,0 +1,8 @@
+1 name1 M data data data number1 number2 150000
+2 name2 M data data data number1 number2 180000
+3 name3 F data data data number1 number2 510000
+4 name4 M data data data number1 number2 50000
+5 name5 M data data data number1 number2 580000
+6 name6 F data data data number1 number2 150000
+7 name7 M data data data number1 number2 15000
+8 name8 F data data data number1 number2 50400
