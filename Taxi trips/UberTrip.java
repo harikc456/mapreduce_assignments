@@ -52,7 +52,7 @@ public class UberTrip {
 		Path input = new Path(files[0]);
 		Path output = new Path(files[1]);
 		Job j = new Job(c, "ubertrip");
-		j.setJarByClass(WordCount.class);
+		j.setJarByClass(UberTrip.class);
 		j.setMapperClass(MapForWordCount.class);
 		j.setReducerClass(ReduceForWordCount.class);
 		j.setOutputKeyClass(Text.class);

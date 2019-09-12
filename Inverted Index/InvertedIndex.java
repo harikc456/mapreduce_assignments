@@ -21,7 +21,7 @@ String[] files=new GenericOptionsParser(c,args).getRemainingArgs();
 Path input=new Path(files[0]);
 Path output=new Path(files[1]);
 Job j=new Job(c,"InvertedIndex");
-j.setJarByClass(WordCount.class);
+j.setJarByClass(InvertedIndex.class);
 j.setMapperClass(MapForIndex.class);
 j.setReducerClass(ReduceForIndex.class);
 j.setOutputKeyClass(Text.class);

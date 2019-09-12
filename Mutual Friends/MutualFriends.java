@@ -68,7 +68,7 @@ public class MutualFriends {
 		Path input = new Path(files[0]);
 		Path output = new Path(files[1]);
 		Job j = new Job(c, "Common_friends");
-		j.setJarByClass(QuizEval.class);
+		j.setJarByClass(MutualFriends.class);
 		j.setMapperClass(MapForForFriends.class);
 		j.setReducerClass(ReduceForFriends.class);
 		j.setOutputKeyClass(Text.class);

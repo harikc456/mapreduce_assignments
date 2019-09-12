@@ -20,7 +20,7 @@ String[] files=new GenericOptionsParser(c,args).getRemainingArgs();
 Path input=new Path(files[0]);
 Path output=new Path(files[1]);
 Job j=new Job(c,"movierating");
-j.setJarByClass(WordCount.class);
+j.setJarByClass(MovieRating.class);
 j.setMapperClass(MapForWordCount.class);
 j.setReducerClass(ReduceForWordCount.class);
 j.setOutputKeyClass(Text.class);
